@@ -1,0 +1,8 @@
+CREATE TABLE levels (
+	id BIGINT NOT NULL AUTO_INCREMENT, 
+	level_id VARCHAR(30) NOT NULL, 
+	level_name VARCHAR(30) NOT NULL, 
+	created_on DATE NOT NULL, 
+	updated_on DATETIME,    
+	PRIMARY KEY (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
